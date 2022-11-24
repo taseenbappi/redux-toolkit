@@ -1,0 +1,22 @@
+.post-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 1.5rem;
+    grid-column-gap: 1.5rem;
+    padding: 1rem;
+}
+
+.post-container article {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    text-align: start;
+    border-radius: 1rem;
+    transition: all .3s ease-in;
+
+}
+
+.post-container article:hover {
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+    transform: scale(1.05);
+}
